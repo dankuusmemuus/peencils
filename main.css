@@ -9,6 +9,11 @@ p {
   font-family: Segoe UI;
 }
 
+@font-face {
+  font-family: "Supreme";
+  src: url(copyfonts.com_futura-heavy-oblique.ttf) format("truetype");
+}
+
 #date{
   font-family: "Supreme"; 
   color: white;
