@@ -1,0 +1,103 @@
+h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  color: #FFF;
+  margin: 0px;
+}
+p {
+  font-family: Segoe UI;
+}
+
+#date{
+  font-family: "Supreme"; 
+  color: white;
+  position: absolute;
+  bottom: -10px;
+  left: 6px;
+  background-color: red;
+}
+body {
+  background-color: #23282d;
+}
+canvas {
+  position: absolute;
+  bottom: 0px;
+}
+
+/*https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
+
+body {
+    padding: 30px;
+    margin: 0px;
+}
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: white;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+h1 {
+}
+p, ol {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+    font-size: 24px;
+    color: #CCC;
+}
+
+@keyframes santaAnimation {
+  from { background-position: 0 95%; }
+  to { background-position: 100% 95%; }
+}
+
+#santa {
+  height: 110px;
+  width: 100%;
+  position: absolute;
+  background-image: url(http://bit.ly/2z8mmKl);
+  background-size: 300px 110px;
+  border-width: 0px;
+  top: 0%;
+  left: 0%;
+  
+  animation: santaAnimation 40s linear infinite;
+}
+
+.merry {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.merry .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.merry .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#name {
+  position: absolute;
+  float: right;
+  bottom: 0px;
+  right: 0px;
+}
